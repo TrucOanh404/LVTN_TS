@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram name="Trang-1" id="IuriQJyLeO5O9aVxXI8S">
+    <mxGraphModel dx="1395" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CLtCGDPlaYMWgl1EfGeU-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="130" width="855" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="CLtCGDPlaYMWgl1EfGeU-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;DATA&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CLtCGDPlaYMWgl1EfGeU-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;AUGMENTATION&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CLtCGDPlaYMWgl1EfGeU-6" value="&lt;div&gt;&lt;b&gt;LABELS&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- IMAGES (TRAIN, TEST, VAL)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- COORDINATE.TXT (TRAIN, TEST, VAL)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CLtCGDPlaYMWgl1EfGeU-7" value="&lt;b&gt;FOLDER&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;IMAGES (TRAIN, VAL, TEST)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="290" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CLtCGDPlaYMWgl1EfGeU-8" value="&lt;b&gt;DETECTION&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;USING YOLOV8, YOLOV9&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CLtCGDPlaYMWgl1EfGeU-9" value="&lt;b&gt;CLASSIFICATION&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;USING DENSENET121, INCEPTIONV3, VGG16, RESNET50&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="275" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

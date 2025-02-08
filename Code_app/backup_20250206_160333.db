@@ -1,0 +1,48 @@
+4.3 Comparison and Selection of Transfer Learning Models
+4.3.1 Evaluation of Transfer Learning Models
+In this study, three widely used Transfer Learning models—VGG16, DenseNet121, and InceptionV3—were utilized for breast cancer classification based on mammogram images. These models were evaluated using Confusion Matrix, Accuracy, Validation Loss, and performance metrics.
+
+1. Evaluation Based on Confusion Matrix
+The Confusion Matrix illustrates the number of correctly and incorrectly classified samples for each category: Benign, Malignant, and Normal.
+
+VGG16:
+Correctly predicted 129 Benign cases but misclassified 15 Benign cases as Malignant and 15 as Normal.
+Misclassified 17 Malignant cases as Benign and 6 as Normal.
+Misclassified 14 Normal cases as Benign and 12 as Malignant.
+Moderate performance, with significant misclassification between Benign and Malignant.
+DenseNet121:
+Correctly classified 138 Benign cases, with the least misclassification (9 as Normal, 12 as Malignant).
+Misclassified 19 Malignant cases as Benign.
+Misclassified 17 Normal cases as Benign but only 1 Normal case as Malignant.
+High performance, minimal misclassification, especially better distinction between Normal and Malignant.
+InceptionV3:
+Correctly classified 132 Benign cases but misclassified 21 Benign cases as Malignant.
+Lowest misclassification for Malignant cases (8 as Benign, 5 as Normal).
+Misclassified 14 Normal cases as Benign and 17 as Malignant.
+Good performance in distinguishing Malignant cases, but significant misclassification between Benign and Malignant.
+📝 Observations: DenseNet121 demonstrated the lowest misclassification rate among the classes, particularly in distinguishing Normal and Malignant cases. InceptionV3 also showed good performance but had higher confusion between Benign and Malignant.
+
+2. Evaluation Based on Accuracy
+The Training and Validation Accuracy plots illustrate the training progress of each model:
+
+DenseNet121 achieved the highest validation accuracy, ranging from 80-87% at the end of training.
+InceptionV3 followed closely, with validation accuracy between 78-85%.
+VGG16 had slightly lower accuracy, ranging from 75-83%.
+ResNet50 had the lowest accuracy, only around 50-55%, and was excluded from further consideration.
+📝 Observations: DenseNet121 attained the highest accuracy, surpassing the other models.
+
+3. Evaluation Based on Validation Loss
+Validation Loss indicates the model’s error rate on the test set:
+
+DenseNet121 exhibited the lowest validation loss, ranging between 0.4 - 0.55, indicating high model stability.
+InceptionV3 also had low validation loss but fluctuated between 0.45 - 0.6, suggesting slight overfitting.
+VGG16 had a validation loss between 0.4 - 0.65, with stronger fluctuations in later training stages.
+ResNet50 had a very high validation loss (~1.0) and was excluded from consideration.
+📝 Observations: DenseNet121 and InceptionV3 exhibited the lowest and most stable validation losses, making them the most suitable models.
+
+4.3.2 Selection of the Optimal Model
+Based on the above analysis, DenseNet121 was selected as the best Transfer Learning model due to: ✅ The highest accuracy (~87%).
+✅ The lowest and most stable validation loss.
+✅ Minimal misclassification between classes, particularly in distinguishing Malignant and Normal cases.
+
+📌 Conclusion: DenseNet121 will be used in the breast cancer diagnosis system to optimize classification performance.
