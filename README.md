@@ -39,8 +39,6 @@ torchvision
 torchaudio 
 tensorflow 
 keras 
-onnx 
-onnxruntime 
 opencv-python 
 opencv-contrib-python 
 albumentations 
@@ -48,11 +46,8 @@ pillow
 matplotlib 
 seaborn 
 transformers 
-fastapi 
-uvicorn 
 requests 
 tqdm 
-protobuf 
 pyyaml 
 jsonschema
 ```
@@ -65,7 +60,7 @@ Ensure you have **Python 3.8+** installed.
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/LVTN_TS.git
+git clone https://github.com/TrucOanh404/LVTN_TS.git
 cd LVTN_TS
 ```
 
